@@ -1,28 +1,103 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Student Bio</title>
-        <link rel="stylesheet" type="text/css" href="css/style2.css">
-    </head>
-    <body>
-        <header>
-            <h1>Student Bio</h1>
-        </header>
-        <div class="container">
-            <section id="main-bio">
-                <h2>Hank Zimmer</h2>
-                <img id="bio-image" src="profile_picture.jpg" alt="Profile picture" height="200" width="200" />
-                <p>I was born in Colorado Springs, Colorado, and lived in Colorado until the age of 21. I went to college at the Colorado School of Mines studying Mechanical Engineering. I then moved to Seattle and worked there for six years as a nuclear engineer, but ultimately decided that engineering isn't my passion. I'm now learning web development.</p>
-            </section>
-            <section id="contact-info">
-                <h2>Contact Info</h2>
-                <ul>
-                    <li><strong>Email: </strong><a href="mailto:hankzimmer7@gmail.com">hankzimmer7@gmail.com</a></li>
-                    <li><strong>Github: </strong><a href = "https://github.com/hankzimmer7">hankzimmer7</a></li>
-                    <li><strong>Portfolio: </strong><a href="#">To be developed...</a></li>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Me</title>
+
+    <!-- Bootstrap Links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+    <!-- My style sheet link -->
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+
+<body>
+    <a id="nav-top"></a>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <a class="navbar-brand" href="index.html">
+                <h3>Hank Zimmer</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
                 </ul>
-           </section>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="display-4 page-title">About Me</h1>
+                            <hr class="my-4">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-3">
+                            <img id="profile_picture" class="rounded img-fluid" src="assets/images/profile_picture_small.jpg" alt="Bio Picture" />
+                        </div>
+                        <div class="col 12 col-md-9">
+                            <p>I was born in Colorado Springs, Colorado, and lived in Colorado until the age of 21. I went to
+                                college at the Colorado School of Mines studying Mechanical Engineering. I then moved to
+                                Seattle and worked there for six years as a nuclear engineer, but ultimately decided that
+                                engineering isn't my passion. I'm now learning web development, and hope to gain enough skill
+                                to have a lifelong career as a web developer.
+                            </p>
+                            <p>My favorite activities include playing video games, trying new foods, and traveling. I haven't
+                                been spending a lot of time playing video games lately, but some of my favorites are the
+                                Final Fantasy series. I started playing Final Fantasy 15 when it came out in 2016, but never
+                                got too far in the storyline. I hope to someday pick the game back up and continue since
+                                it's one of my favorite video game series.</p>
+                            <p>I love trying new foods, and one of my favorite types is sushi. My favorite overall Japanese
+                                restaraunt I have been to in Atlanta thus far is Ginya Izakaya. I love it there because the
+                                menu is huge and it reminds me of Izakaya joints in Japan. I spent 6 months working in Japan,
+                                and would love to go back someday to vacation.
+                            </p>
+                            <p>Email:
+                                <a target="_blank" href="mailto:hankzimmer7@gmail.com" target="_top">hankzimmer7@gmail.com</a>
+                            </p>
+                            <p>LinkedIn:
+                                <a target="_blank" href="https://www.linkedin.com/in/hankzimmer/">hankzimmer</a>
+                            </p>
+                            <p>Github:
+                                <a target="_blank" href="https://github.com/hankzimmer7">hankzimmer7</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </body>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <a href="#nav-top" class="backToTopLink">
+                    Back to top
+                </a>
+            </div>
+    </footer>
+</body>
+
 </html>
