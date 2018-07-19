@@ -41,9 +41,22 @@ h2 {
     color: white;
     text-decoration: none;
 }
-
 .card-text {
     text-align: center;
+    margin-bottom:0;
+}
+.portfolio-link, .github-link {
+    color:black;
+    margin-bottom: 0;
+    text-align: center;
+}
+.portfolio-link:hover, .github-link:hover {
+    color:rgb(58, 57, 57);
+    text-decoration: none;
+}
+
+.github-link {
+    font-size: .75rem;
 }
 
 #profile-picture {
