@@ -17,9 +17,17 @@ h2 {
     font-weight: 300;
 }
 
+h3 {
+    font-weight: 300;
+}
+
 .navbar {
     background-color: rgb(0, 0, 40);
     margin-bottom: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.5rem;
 }
 
 .footer {
@@ -41,17 +49,22 @@ h2 {
     color: white;
     text-decoration: none;
 }
+
 .card-text {
     text-align: center;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
-.portfolio-link, .github-link {
-    color:black;
+
+.portfolio-link,
+.github-link {
+    color: black;
     margin-bottom: 0;
     text-align: center;
 }
-.portfolio-link:hover, .github-link:hover {
-    color:rgb(58, 57, 57);
+
+.portfolio-link:hover,
+.github-link:hover {
+    color: rgb(58, 57, 57);
     text-decoration: none;
 }
 
@@ -84,7 +97,6 @@ h2 {
     animation-duration: 1s;
 }
 
-
 /* Media queries for responsiveness */
 
 /* Large devices (desktops, less than 1200px) */
@@ -95,6 +107,9 @@ h2 {
     }
     h2 {
         font-size: 3rem;
+    }
+    .nav-link {
+        font-size: 1.25rem;
     }
 }
 
@@ -110,6 +125,9 @@ h2 {
     }
     h2 {
         font-size: 2.5rem;
+    }
+    .nav-link {
+        font-size: 1rem;
     }
 }
 
@@ -136,6 +154,5 @@ h2 {
         max-height: 90px;
         margin-bottom: 0.25rem;
         margin-right: 0.5rem;
-
     }
 }
