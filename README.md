@@ -4,4 +4,4 @@
 
 ## Description
 
-* My portfolio page provides a short bio about me and contains links to my deployed portfolio pieces.
+* My portfolio page provides a bio about me and my interests and contains links to my deployed portfolio pieces, as well as my resume and contact info.
